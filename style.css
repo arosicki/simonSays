@@ -1,0 +1,97 @@
+html,
+body {
+    background-color: #393e46;
+    color: #cccccc;
+}
+img {
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+a,
+a:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.card {
+    width: 18rem;
+    color: #393e46;
+    display: inline-block;
+}
+
+.card-container {
+    max-width: 58rem;
+}
+
+.header {
+    margin-bottom: 0;
+    background-color: #222831;
+}
+
+.crd-img {
+    height: 200px;
+    width: auto;
+}
+
+.middle-absolute {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.square {
+    height: 20vh;
+    width: 20vh;
+    border-radius: 10%;
+    box-shadow: 0.875vh 0.875vh  0px 0px #77858a;
+	background:linear-gradient(to bottom, #8c9c9c 5%, #96afb5 100%);
+    background-color:#8c9c9c;
+    transition-duration: 0.1s
+    
+}
+.square:hover {
+	background:linear-gradient(to bottom, #96afb5 5%, #8c9c9c 100%);
+	background-color:#96afb5;
+    cursor:pointer;
+}
+.clicked {
+	background:linear-gradient(to bottom, #2c89c7 5%, #07ade0 100%) !important;
+    background-color:#2c89c7 !important;
+    box-shadow: 0.4vh 0.4vh 0px 0px #003a78 !important;
+    position: relative;
+    transform: translateY(4px) translateX(4px);
+    transition-duration: 0.1s
+}
+.highlighted {
+    background:linear-gradient(to bottom, #2c89c7 5%, #07ade0 100%) !important;
+    background-color:#2c89c7 !important;
+    box-shadow: 8px 8px 0px 0px #2677ad !important;
+    transition-duration: 0.1s
+}
+.simon-container {
+    width: 70vh;
+    margin-top: 8vh;
+}
+
+.announcer {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3vh;
+    margin-bottom: 3vh;
+    color: green;
+    -webkit-text-stroke-width: 0.2vh;
+    -webkit-text-stroke-color: black;
+}
+#zsl {
+    width: 20vh;
+    height: auto;
+    margin-top: 2.75vh;
+}
